@@ -409,13 +409,13 @@ if __name__=='__main__':
     plt03()
 ```
 
-<img src="C:\Users\dywjd\AppData\Roaming\Typora\typora-user-images\image-20200825230706052.png" alt="image-20200825230706052" style="zoom: 50%;" /> **plt01()**
+![image-20200825230706052](https://user-images.githubusercontent.com/67030978/91185909-57be8300-e729-11ea-915b-cf41ea7656b4.png) **plt01()**
 
 
 
-<img src="C:\Users\dywjd\AppData\Roaming\Typora\typora-user-images\image-20200825230853438.png" alt="image-20200825230853438" style="zoom: 50%;" />**plt02()**
+![image-20200825230853438](https://user-images.githubusercontent.com/67030978/91185925-5b520a00-e729-11ea-8ea4-691a28e182c3.png)**plt02()**
 
-<img src="C:\Users\dywjd\AppData\Roaming\Typora\typora-user-images\image-20200825230945355.png" alt="image-20200825230945355" style="zoom: 50%;" />**plt03()*
+![image-20200825230945355](https://user-images.githubusercontent.com/67030978/91185948-6016be00-e729-11ea-9156-0502efca3ccd.png)**plt03()*
 
 ```python
 import numpy as np
@@ -445,4 +445,4 @@ plt.show()
 
 
 
-<img src="C:\Users\dywjd\AppData\Roaming\Typora\typora-user-images\image-20200825231100090.png" alt="image-20200825231100090" style="zoom: 50%;" />**plt**
+![image-20200825231100090](https://user-images.githubusercontent.com/67030978/91185964-63aa4500-e729-11ea-9a09-cd630db5fdc6.png)**plt**
