@@ -468,8 +468,7 @@ db.score.aggregate(
 
 
 
-<img src="C:\Users\dywjd\AppData\Roaming\Typora\typora-user-images\image-20200826142811204.png" alt="image-20200826142811204"  />
-
+![image-20200826142811204](https://user-images.githubusercontent.com/67030978/91319684-9c185480-e7f7-11ea-8c47-fef324342832.png)
 
 
 - stage1의 결과값으로 stage2d의 입력값으로 넣어준다.
@@ -529,10 +528,10 @@ db.score.aggregate(
 
 -out : collection or document 출력
 
-![image-20200826234838919](C:\Users\dywjd\AppData\Roaming\Typora\typora-user-images\image-20200826234838919.png)
 
 
 
+![image-20200826234838919](https://user-images.githubusercontent.com/67030978/91319718-a8041680-e7f7-11ea-9a8e-e9db116150fa.png)
 
 
 
