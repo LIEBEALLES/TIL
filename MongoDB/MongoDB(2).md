@@ -38,10 +38,10 @@
 >
 > **out : collection or document 출력**
 
-![image-20200827175953894](C:\Users\dywjd\AppData\Roaming\Typora\typora-user-images\image-20200827175953894.png)
+![image-20200827175953894](https://user-images.githubusercontent.com/67030978/91433726-b0fbf300-e89e-11ea-9589-1fa52fd8d0d8.png)
 
-<img src="C:\Users\dywjd\AppData\Roaming\Typora\typora-user-images\image-20200827180245805.png" alt="image-20200827180245805"  />
 
+![image-20200827180245805](https://user-images.githubusercontent.com/67030978/91433749-b9542e00-e89e-11ea-8085-eafb5d761dd0.png)
 
 
 - test가 final인 document 들의 이름과 국어와 영어를 출력하고, '국어와 영어의 합' 을 출력하자
@@ -417,8 +417,8 @@ visual.to_file('cloud.png')
 
 #실행결과 (cloud.png라는 파일이 만들어졌다. 패키지를 새로고침하면 생김)
 
-<img src="C:\Users\dywjd\AppData\Roaming\Typora\typora-user-images\image-20200827194624757.png" alt="image-20200827194624757"  />
 
+![image-20200827194624757](https://user-images.githubusercontent.com/67030978/91433787-c3762c80-e89e-11ea-8b68-2c2fe97fb396.png)
 
 
 
