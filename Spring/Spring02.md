@@ -63,7 +63,7 @@
 
 ### ⭐⭐MVC흐름도⭐⭐
 
-![image-20200903213559821](C:\Users\dywjd\AppData\Roaming\Typora\typora-user-images\image-20200903213559821.png)
+![image-20200903213559821](https://user-images.githubusercontent.com/67030978/92118001-e077a600-ee30-11ea-9dc0-f6d2bbd5b08c.png)
 
 ### 🎄TODO 순서
 
