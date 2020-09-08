@@ -119,9 +119,79 @@
 
 13. #### LogFilter(com.mvc.upgrade.common.filter) impl javax.servlet.Filter 
 
-    <br>
+    
 
 14. #### web.xml
+
+    ### 🍟_AOP
+
+15. #### pom.xml : aspectjrt, aspectjweaver
+
+    - aspectj 를 또 추가해주는 이유 : 중복으로 넣어도 버전이 같으면 잘 돌아간다.  -> 그거 확인하려고!
+
+      같은 dependency가 두개 있을 때 서로 버전이 다르면 동작하지 않는다 / 충돌이 난다/
+
+    <br>
+
+16. #### LogAop (com.mvc.upgrade.common.aop.LogAop)
+
+    - ```java
+      import org.aspectj.lang.JoinPoint;
+      import org.slf4j.Logger;
+      import org.slf4j.LoggerFactory;
+      
+      //클래스 헷갈리지말 것
+      ```
+
+    - clazz : class 타입의 변수다. 
+
+    - ```
+      //getTarget() : 대상객체
+      //getArgs() : 대상 파라미터들
+      //getSignature() : 대상 메서드 정보 
+      ```
+
+    <br>
+
+17. #### aop-contect.xml(WEB-INF/spring/appServlet/aop-context.xml)
+
+    - Spring Bean Configuration File 로 만드는 것 잊지말기! 
+
+    <br>
+
+18. #### web.xml에 <init-param>에 추가해주기! 헷갈리지 말자 여기서 실수했음
+
+    - ```
+      <servlet>
+      		<servlet-name>appServlet</servlet-name>
+      		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+      		<init-param>
+      			<param-name>contextConfigLocation</param-name>
+      			<param-value>/WEB-INF/spring/appServlet/servlet-context.xml
+      			/WEB-INF/spring/appServlet/aop-context.xml
+      			</param-value>
+      		</init-param>
+      		<load-on-startup>1</load-on-startup>
+      	</servlet>
+      ```
+
+    <br>
+
+19. #### log4j.xml(src/main/resources/log4j.xml)
+
+    - 		```java
+      //log4j Log Level 
+        		//-Level.FATAL : 치명적인 에러 
+        		//-Level.ERROR : 일반적인 에러
+        		//-Level.WARN : 경고
+        		//-Level.INFO : 일반적인 정보
+        		//-Level.DEBUG : 디버깅 정보
+    		//-Level.TRACE : DEBUG + @(상세한 정보)
+      ```
+      
+      
+    
+    <br>
 
 ----
 
@@ -137,4 +207,8 @@
 		<property name="password" value="${password}"></property>
 	</bean>
 ```
+
+
+
+
 
