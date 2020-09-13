@@ -30,7 +30,7 @@
 >
 > Filter, AOP, Interceptor 가 있다.
 
-### ![image-20200914021657504](C:\Users\dywjd\AppData\Roaming\Typora\typora-user-images\image-20200914021657504.png)
+![filter, Interceptor, aop](https://user-images.githubusercontent.com/67030978/93024936-f3f6ee00-f634-11ea-9d05-f4fe4231590a.jpg)
 
 1. 서버실행 -> servlet이 올라오는 동안 init()이 실행이 되고, 그 후에 doFilter실행
 
@@ -49,5 +49,4 @@
 | 설정위치    | xml / java                                       | web.xml                         | xml / java                                                   |
 | 실행 메소드 | preHandler<br />postHandler<br />afterCompletion | init<br />doFilter<br />destroy | pointcut으로<br />@after, @before, <br />@around 등 위치를<br />선정하여 자유롭게 <br />메소드 생성가능 |
 
-![image-20200914023332033](C:\Users\dywjd\AppData\Roaming\Typora\typora-user-images\image-20200914023332033.png)
-
+![spring](https://user-images.githubusercontent.com/67030978/93024939-f9eccf00-f634-11ea-8f76-15f91026dc44.jpg)
