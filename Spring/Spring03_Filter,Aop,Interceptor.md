@@ -49,4 +49,4 @@
 | 설정위치    | xml / java                                       | web.xml                         | xml / java                                                   |
 | 실행 메소드 | preHandler<br />postHandler<br />afterCompletion | init<br />doFilter<br />destroy | pointcut으로<br />@after, @before, <br />@around 등 위치를<br />선정하여 자유롭게 <br />메소드 생성가능 |
 
-![spring](https://user-images.githubusercontent.com/67030978/93024939-f9eccf00-f634-11ea-8f76-15f91026dc44.jpg)
+
