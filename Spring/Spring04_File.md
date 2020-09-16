@@ -281,8 +281,8 @@
     	public String fileUpload(HttpServletRequest request, Model model, UploadFile uploadFile, BindingResult result) {
     		fileValidator.validate(uploadFile, result);
     		/*
-    		upload.jsp에서 send하면 uploadFile (커맨드객체)에 파일, 파일이름,
-            파일설명 이 세개가 한 번에 간다.
+    		upload.jsp에서 send하면 uploadFile 커맨드객체 하나가 가는데 파일이름, 파일설명이
+    		이 두개가 전달된다.
             전달된 값을 Validator로 보냈어
     		Validate메소드를 통해서 혹시 예외가 발생한다면 
     		바인딩리절트가 대기하고있다가 해당 파일에 에러가 발생한다면 Validator로 가
