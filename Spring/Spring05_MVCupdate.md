@@ -13,7 +13,7 @@
 	id="WebApp_ID" version="4.0">
 ```
 
-![image-20200916133514101](C:\Users\dywjd\AppData\Roaming\Typora\typora-user-images\image-20200916133514101.png)
+![image-20200916133514101](https://user-images.githubusercontent.com/67030978/93661192-c543a200-fa90-11ea-8e05-0a7de339a3b3.png)
 
 ​	4.0으로 바뀌어진 거 확인할 수 있다. 
 
@@ -34,8 +34,8 @@
 ​			target : 1.6->1.8
 
 ### 3. project facets
+![image-20200916140743968](https://user-images.githubusercontent.com/67030978/93661194-ce347380-fa90-11ea-9670-e221f4b95fc1.png)
 
-![image-20200916140743968](C:\Users\dywjd\AppData\Roaming\Typora\typora-user-images\image-20200916140743968.png)
 
 ​	Java , Dynamic Web Module 을 알맞게 버전을 바꿔준다.
 
